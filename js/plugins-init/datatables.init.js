@@ -46,7 +46,20 @@ let dataSet = [
     var table = $('#example').DataTable({
         createdRow: function ( row, data, index ) {
            $(row).addClass('selected')
-        } 
+        } ,
+        ordering: false 
+    });
+    var table = $('#examplec').DataTable({
+        createdRow: function ( row, data, index ) {
+           $(row).addClass('selected')
+        } ,
+        ordering: false 
+    });
+    var table = $('#exampled').DataTable({
+        createdRow: function ( row, data, index ) {
+           $(row).addClass('selected')
+        } ,
+        ordering: false 
     });
       
     table.on('click', 'tbody tr', function() {
@@ -73,7 +86,8 @@ let dataSet = [
 
         "scrollY":        "42vh",
         "scrollCollapse": true,
-        "paging":         false
+        "paging":         true,
+        ordering: false
     });
 
     table2.on('click', 'tbody tr', function() {

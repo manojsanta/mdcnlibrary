@@ -1,0 +1,2 @@
+book_title,category_id,booktype,author,author_2,author_3,author_4,author_5,book_copies,book_pub,publisher_name,isbn,copyright_year,price,status,book_barcode,bookaccno,accdate,book_image,date_added,remarks,sourcefund,invno,invdate,vendoname,logdate,entryby
+MANOJ KUMAR SANTA,1,T,V.S Upadhya,Gaya Pandey,manoj1,manoj2,manoj3,0,3,PHP ,ISSN-0211,2024,19000,New,TANTH000113132,MDCNANTH0111,22-09-2020,NULL,11-01-2021 0.00,Not Available,101,1,15-10-2024,mind india,26-08-2021 18.10,Admin
